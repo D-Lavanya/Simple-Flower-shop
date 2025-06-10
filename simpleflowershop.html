@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indoor Plants</title>
+    <meta name="description" content="Explore a variety of indoor plants for your home or office">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+        }
+
+        .plant {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .plant img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            max-height: 300px;
+            object-fit: cover;
+        }
+
+        .plant h2 {
+            color: #388e3c;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #555;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Indoor Plants</h1>
+
+    <div class="plant">
+        <h2>Peace Lily</h2>
+        <p>The Peace Lily is a popular indoor plant known for its beautiful white flowers and air-purifying qualities.</p>
+        <p class="price">Price: $15</p>
+        <img src="data:image/jpeg;base64,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" alt="Peace Lily">
+    </div>
+
+    <div class="plant">
+        <h2>Zanzibar Gem</h2>
+        <p>The Zanzibar Gem, with its glossy green foliage, is a low-maintenance indoor plant perfect for beginners.</p>
+        <p class="price">Price: $20</p>
+        <img src="https://edube.org/uploads/media/default/0001/04/zamioculcas-zanzibar-gem.jpg" alt="Zanzibar Gem">
+    </div>
+
+    <div class="plant">
+        <h2>Snake Plant</h2>
+        <p>The Snake Plant is a hardy indoor plant that requires very little care and thrives in low light.</p>
+        <p class="price">Price: $18</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRa1a0RUErqMrKmbOJJuqPgJM2yHpzytiaKg&s" alt="Snake Plant">
+    </div>
+
+    <div class="plant">
+        <h2>Areca Palm</h2>
+        <p>The Areca Palm is a graceful, air-purifying plant that brings a tropical feel to indoor spaces.</p>
+        <p class="price">Price: $25</p>
+        <img src="https://nurserylive.com/cdn/shop/products/nurserylive-g-areca-palm-small-plant.jpg?v=1636456428" alt="Areca Palm">
+    </div>
+
+    <div class="plant">
+        <h2>Aloe Vera</h2>
+        <p>Aloe Vera is a succulent plant known for its soothing gel, easy care, and clean, modern look.</p>
+        <p class="price">Price: $10</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD6kYBd6ZuGFkQT4omy-hIxu_N8VFQBosJ3g&s" alt="Aloe Vera">
+    </div>
+
+    <div class="plant">
+        <h2>Spider Plant</h2>
+        <p>The Spider Plant is a fast-growing, air-purifying plant with arching green leaves and white stripes.</p>
+        <p class="price">Price: $12</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQqFAq1gUeJjGwnkn6UKfwtBCwtnhmwKQoMQ&s" alt="Spider Plant">
+    </div>
+</body>
+</html>
